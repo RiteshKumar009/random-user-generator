@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Generation</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="user-profile">
+
+        <div class="profile-top">
+            <img id="image" src="" alt="">
+            
+            <div class="profile-info">
+                <span id="name">Name</span>
+                <span>|</span>
+                <span id="gender">Gender</span>
+            </div>
+        </div>
+
+        <div class="profile-bottom">
+            <div class="profile-info">
+                <span class="material-icons"> email </span>
+                <span id="email">Email</span>
+            </div>
+
+            <div class="profile-info">
+                <span class="material-icons">
+                    smartphone
+                    </span>
+                <span id="phone">Phone</span>
+            </div>
+
+            <div class="profile-info">
+                <span class="material-icons">
+                    explore
+                    </span>
+                <span id="location">Country</span>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="getRandomUser()">Generate New User </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
